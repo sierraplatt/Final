@@ -1,0 +1,35 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715029651
+Asset 2.png::CompressedTexture2D::8676823018036620538::1714015882::1714015882::1::::<><>::
+pixilart-drawing.png::CompressedTexture2D::8127638981715192193::1714015287::1714015287::1::::<><>::
+::res://FinalGame/::1715029018
+::res://Scenes/::1715029641
+book1.png::CompressedTexture2D::709137239233556531::1714027413::1715028809::1::::<><>::
+book.png::CompressedTexture2D::1554703184739378441::1714027112::1715028809::1::::<><>::
+Book.tscn::PackedScene::911659174466650348::1715029641::0::1::::<><>::res://Scenes/BookScript.gd<>uid://kdrnfb2dx5qt::::res://Scenes/book1.png
+BookScript.gd::GDScript::-1::1714067031::0::1::::<>Area2D<>::
+CollisionShape2D2.gd::GDScript::-1::1714025929::0::1::::<>CollisionShape2D<>::
+icon.svg::CompressedTexture2D::1008187948606076563::1713816007::1715028809::1::::<><>::
+Knowledge Bar.gd::GDScript::-1::1715028206::0::1::::<>ProgressBar<>::
+LAB.tscn::PackedScene::340055464930314786::1715029641::0::1::::<><>::uid://ceeywxoap15bu::::res://Scenes/New Piskel (5).png
+Main.gd::GDScript::-1::1714069298::0::1::::<>Node2D<>::
+MainMenu.gd::GDScript::-1::1715027664::0::1::::<>Button<>::
+Menu.tscn::PackedScene::8302579867727922060::1715029641::0::1::::<><>::res://Scenes/MainMenu.gd
+New Piskel (2).png::CompressedTexture2D::8742763059107642410::1714150497::1715028809::1::::<><>::
+New Piskel (3).png::CompressedTexture2D::8137816166274050561::1714351494::1715028809::1::::<><>::
+New Piskel (4).png::CompressedTexture2D::3100251771537802158::1714415842::1715028809::1::::<><>::
+New Piskel (5).png::CompressedTexture2D::5063351977932290414::1714415922::1715028809::1::::<><>::
+New Piskel.png::CompressedTexture2D::8198742553929628158::1714070841::1715028809::1::::<><>::
+Player2.tscn::PackedScene::5142572343811504129::1714023725::0::1::::<><>::
+Puzzle1.gd::GDScript::-1::1714350889::0::1::::<>Node2D<>::
+Puzzle1.tscn::PackedScene::4749167874615711594::1715029641::0::1::::<><>::uid://c275l8vus6rod::::res://Scenes/Riddle1.jpg<>res://Scenes/Puzzle1.gd
+Puzzle1Menu.gd::GDScript::-1::1714154944::0::1::::<>Control<>::
+Puzzle1Menu.tscn::PackedScene::6029655529363338831::1715029641::0::1::::<><>::res://Scenes/Puzzle1Menu.gd
+Riddle1.jpg::CompressedTexture2D::6735843153904385659::1714350350::1715028809::1::::<><>::
+RockMap.tscn::PackedScene::7500680334697177208::1715029641::0::1::::<><>::uid://dn2da5yfaooyj::::res://pixilart-drawing.png<>res://Scenes/wormscript.gd<>res://Scenes/CollisionShape2D2.gd<>uid://do2sdemo4vpte::::res://Scenes/New Piskel.png<>res://Scenes/Knowledge Bar.gd<>uid://cr52ss0ihoiap::::res://Scenes/Puzzle1Menu.tscn<>res://Scenes/SPECIALBOOKSCRIPT.gd<>uid://m8u5m1r2fonc::::res://Scenes/Book.tscn<>res://Scenes/TextEdit.gd<>uid://dwtcba767bkes::::res://Scenes/New Piskel (2).png
+SPECIALBOOKSCRIPT.gd::GDScript::-1::1714154944::0::1::::<>Area2D<>::
+Sprite2D2.gd::GDScript::-1::1714025883::0::1::::<>Sprite2D<>::
+TextEdit.gd::GDScript::-1::1714416166::0::1::::<>LineEdit<>::
+TimePanel.gd::GDScript::-1::1714352394::0::1::::<>Panel<>::
+womry.tscn::PackedScene::5553160624654768152::1715028808::0::1::::<><>::uid://ommycxx11gsh::::res://Scenes/icon.svg<>res://Scenes/wormscript.gd
+wormscript.gd::GDScript::-1::1714842133::0::1::::<>CharacterBody2D<>::

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cld80kirlb63m"]
+
+[ext_resource type="Texture2D" uid="uid://ommycxx11gsh" path="res://Scenes/icon.svg" id="1_0bn72"]
+[ext_resource type="Script" path="res://Scenes/wormscript.gd" id="1_8xymh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jdqcb"]
+size = Vector2(116.583, 134.924)
+
+[node name="Womry" type="CharacterBody2D"]
+script = ExtResource("1_8xymh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, 12)
+scale = Vector2(0.046875, 0.0449219)
+texture = ExtResource("1_0bn72")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 12)
+scale = Vector2(0.046875, 0.0449219)
+shape = SubResource("RectangleShape2D_jdqcb")

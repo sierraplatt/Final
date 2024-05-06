@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://cr52ss0ihoiap"]
+
+[ext_resource type="Script" path="res://Scenes/Puzzle1Menu.gd" id="1_reo7s"]
+
+[node name="Puzzle1Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_reo7s")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -119.0
+offset_right = 120.0
+offset_bottom = 66.0
+grow_horizontal = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Eat" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Eat"
+
+[node name="Play" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Read the puzzle...I mean book"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Eat" to="." method="_on_eat_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
